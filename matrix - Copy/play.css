@@ -1,0 +1,145 @@
+
+.page2{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    transform: translateX(100%);
+    z-index: 100;
+    background-color: var(--dark-color);
+    transition: 0.3s  ease-in-out;
+}
+.page2::-webkit-scrollbar{
+    display: none;
+}
+.top{
+    display: flex;
+    margin: 0 3vmax;
+    align-items: center;
+    transform: translateY(-3%);
+    /* background-color: #004d8b; */
+}
+.topleft{
+    height: 30vmax;
+    width: 50vmax;
+    overflow: hidden;
+    /* padding: 0.5vmax; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.movie{
+    /* transform: translateX(-15%); */
+    /* height: 30vmax; */
+    width: 100%;
+}
+.topright{
+    width: 40vmax;
+    margin: 2vmax;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aliceblue; */
+}
+.righttop{
+    margin: 0 1vmax;
+    display: flex;
+    align-items: flex-start;
+    /* background-color: aquamarine; */
+}
+.rightbottom{
+margin: 0.8vmax 2vmax;
+/* background-color: brown; */
+}
+.posterimgv{
+    width: 10vmax;
+}
+.toptxt{
+    margin: 0vmax 2.2vmax;
+}
+.movienametop{
+    display: inline;
+    color: var(--light-color);
+    font: 600 4vmax 'Source Sans Pro';
+
+ }
+ .smalltxttop{
+    margin: 1vmax 0vmax;
+ }
+ .yeartop{
+    display: inline;
+    color: var(--light-color);
+    font: 400 0.8vmax 'Source Sans Pro';
+    margin-bottom: 0.7vmax;
+
+ }
+ .durationtop{
+    display: inline;
+    margin-bottom: 0.7vmax;
+    color: var(--light-color);
+    font: 300 1vmax 'Source Sans Pro';
+
+ }
+ .uatop{
+    display: inline;
+    color: var(--light-color);
+    font: 600 1vmax 'Source Sans Pro';
+ }
+ .imdbtop{
+    color: var(--light-color);
+    font: 400 0.9vmax 'Source Sans Pro';
+    margin-bottom: 2vmax;
+ }
+ .btn{
+    margin: 1vmax 0vmax;
+    display: flex;
+    /* justify-content: center; */
+ }
+ .watchnowup{
+    text-decoration: none;
+    font: 300 0.8vmax 'Source Sans Pro';
+    color: var(--light-color);
+    background-color: var(--mid-color) ;
+    padding: 0.6vmax 1.2vmax;
+    border-radius: 5px;
+    display: inline;
+    margin: 0vmax 0.5vmax 0vmax 0vmax;
+
+ }
+ .addup{
+    text-decoration: none;
+    font: 300 0.8vmax 'Source Sans Pro';
+    color: var(--light-color);
+    background-color: var(--mid-color) ;
+    padding: 0.6vmax 1.2vmax;
+    border-radius: 5px;
+    margin: 0vmax 0.5vmax;
+
+ }
+ .bio{
+    width: 30vmax;
+    color: var(--light-color);
+    font: 100 1vmax 'Source Sans Pro';
+}
+.suggestion{
+    margin-top:0.3vmax 2vmax;
+}
+.verticalposterm{
+    display: flex;
+    /* align-items: center; */
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 2vmax 0.5vmax ;
+    z-index: 2;
+}
+.verticalposterm::-webkit-scrollbar{
+    display: none;
+}
+
+.bon{
+    height: 1vmax;
+    width: 1vmax;
+    color: aqua;
+    background-color: blueviolet;
+}

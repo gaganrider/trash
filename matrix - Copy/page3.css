@@ -1,0 +1,194 @@
+
+.page3{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+transform: translateX(100%);
+z-index: 150;
+background-color: var(--dark-color);
+transition: 0.3s  ease-in-out;
+}
+.page3::-webkit-scrollbar{
+    display: none;
+}
+
+.mininavp3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0 2vmax;
+}
+.minitittlep3{
+    color: var(--light-color);
+    font: 500 2.5vmax 'Source Sans Pro';
+}
+
+.verticalposterp3{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    padding: 1vmax 0.5vmax ;
+   
+    z-index: 2;
+}
+.block1{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 200%;
+}
+.block2{
+    display: flex;
+    position: absolute;
+    top: 1500%;
+    left: 200%;
+}
+.block3{
+    display: flex;
+    position: absolute;
+    top: 3000%;
+    left: 200%;
+}
+.block4{
+    display: flex;
+    position: absolute;
+    top: 4500%;
+    left: 200%;
+}
+.tilep3{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5vmax;
+    /* background-color: var(--mid-color); */
+    transition: 0.05s;
+}
+.postertxtp3{
+    /* width: 9.5vmax;
+    height: 16.42vmax; */
+    background-color: var(--dark-color);
+    /* width: 0vmax; */
+    display: none ;
+    /* transform:translateX(-100%); */
+
+}
+.posterimgvp3{
+    width: 18vmax;
+    height: 27vmax;
+    border-radius: 8px;
+    /* margin: 0 0.2vmax; */
+    /* z-index: 22; */
+    
+}
+.tilep3:hover{
+transform: scale(110%);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1.2px;
+    border-color: var(--light-color);
+    z-index: 6543;
+    /* transform: translateY(-7%); */
+    
+}
+   .tilep3:hover .postertxtp3{
+    /* transform: scale(110%); */
+    display: inline;
+    /* position: static; */
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    z-index: 25;
+    padding: 0.2vmax 0vmax 0vmax 0.5vmax;
+     }
+     .tilep3:hover .posterimgvp3{
+        border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+     }
+     .movienamep3{
+        display: inline;
+        color: var(--light-color);
+        font: 500 1.2vmax 'Source Sans Pro';
+
+     }
+     .yearp3{display: inline;
+        color: var(--light-color);
+        font: 400 0.6vmax 'Source Sans Pro';
+        margin-bottom: 0vmax;
+
+     }
+     .durationp3{
+        display: inline;
+        color: var(--light-color);
+        font: 300 0.6vmax 'Source Sans Pro';
+
+     }
+     .uap3{
+        display: inline;
+        color: var(--light-color);
+        font: 600 0.6vmax 'Source Sans Pro';
+     }
+     
+     .butnp3{
+        margin: 0.2vmax 0vmax 1vmax 0vmax;
+     }
+     .watchnowp3{
+        text-decoration: none;
+        font: 300 0.5vmax 'Source Sans Pro';
+        color: var(--light-color);
+        background-color: var(--mid-color) ;
+        padding: 0.3vmax 0.6vmax;
+        border-radius: 5px;
+        display: inline;
+        margin: 0vmax 0.05vmax;
+
+     }
+     .addp3{
+        text-decoration: none;
+        font: 300 0.5vmax 'Source Sans Pro';
+        color: var(--light-color);
+        background-color: var(--mid-color) ;
+        padding: 0.3vmax 0.6vmax;
+        border-radius: 5px;
+        margin: 0vmax 0.05vmax;
+
+     }
+     .page4{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    transform: translateX(200%);
+    z-index: 200;
+    background-color: var(--dark-color);
+    transition: 0.3s  ease-in-out;
+    }
+    .page4::-webkit-scrollbar{
+        display: none;
+    }
+   .block5{
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: 200%;
+    }
+    .block6{
+        display: flex;
+        position: absolute;
+        top: 1500%;
+        left: 200%;
+    }
+    .block7{
+        display: flex;
+        position: absolute;
+        top: 3000%;
+        left: 200%;
+    }
+    .block8{
+        display: flex;
+        position: absolute;
+        top: 4500%;
+        left: 200%;
+    }
